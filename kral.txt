@@ -7,14 +7,14 @@
 
 {
 [syllable]
-- [jiza] [lurin] ;
-- [jiza] [blen] [lurin] ;
-- [jiza] [lurin] [blen] ;
-- [lurin] [jiza] ;
-- [lurin] [blen] [jiza] ;
-- [lurin] [jiza] [blen] ;
-- [lurin] [jiza] [lurin] ;
-- [lurinsai] [jiza] [lurinsai] [blen] ;
+[jiza] [lurin] ;
+[jiza] [blen] [lurin] ;
+[jiza] [lurin] [blen] ;
+[lurin] [jiza] ;
+[lurin] [blen] [jiza] ;
+[lurin] [jiza] [blen] ;
+[lurin] [jiza] [lurin] ;
+[lurinsai] [jiza] [lurinsai] [blen] ;
 }
 
 {

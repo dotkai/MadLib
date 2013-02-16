@@ -22,6 +22,7 @@ public class Generator
 
 		for (int i = 0; i < 10; i++)
 			{	
+				//Change the filename here
 				FileParser fp = new FileParser("sentence.txt");
 				
 				r = new Random();
