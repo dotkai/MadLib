@@ -33,7 +33,51 @@ massive amounts of words can be very tedious and takes away from programming tim
  d y o l e s l i o l r .
 ```
 ## Use
-How to make a file that parses
+###Overview:
+The way the program works is fairly similar to how mad-libs work. You can have predefined text (such as with the 
+facile example) and spaces, or holes, from which the program randomly 
+selects words from a predefined dictionary. Each dictionary itself has a name, for the respective hole it will fill.
+
+In other words, `[noun]` will point to the `noun` dictionary. The names however can be whatever desired. Parsing is 
+similar to Java, or Css. Each dictionary is contained within cury-braces `{}`, the first line after contains the name
+of the dictionary within brackets `[egname]`. Each item after is a member of that dictionary and takes up one line,
+completed by `;`. The dictionaries members themselves can have holes, defined by other dictionary names, to pull in 
+random selections from that respective dictionary as well. Note, these will keep being filled up until an "end" is
+reached, or a line without another dictionary pointer.
+
+An example of the program. The first dictionary filled is the master one. The name of it is irrelevant, though
+useful to have for reading purposes. There is no set length for members.
+
+```madlib
+{
+[madlib]
+There once was a [noun] . ;
+I like to [verb] . ;
+This is so [adjective] .
+}
+
+{
+[noun]
+dog ;
+horse ;
+man who liked kitkats ;
+}
+
+{
+[verb]
+sleep ;
+ignore my alarm clock ;
+program until absurd hours in the morning ;
+}
+
+{
+[adjective]
+fun ;
+utterly pointless ;
+}
+```
+
+**Reminder**: There will be a total of 10 implimentations generated. The more you have in 
 
 ## How Works
 How stuff works
