@@ -27,7 +27,8 @@ LET C 0 NL IF O = 4 THEN 2 NL GOTO 16 NL SUB E 18 NL DIV U 18 NL END NL GOSUB 13
 
 * **Kral** : This is an alien language I invented with an interesting structure for writing syllables. English has
 consonants and nouns, kral has jiza, blen, and lurin. I made this to assist with creatng words, since making up 
-massive amounts of words can be very tedious and takes away from programming time.
+massive amounts of words can be very tedious and takes away from programming time. Spaces are not removed since
+the primary purpose of the program is a grammar generator, not word maker.
 
 ```java
  d y o l e s l i o l r .
@@ -42,43 +43,36 @@ In other words, `[noun]` will point to the `noun` dictionary. The names however 
 similar to Java, or Css. Each dictionary is contained within cury-braces `{}`, the first line after contains the name
 of the dictionary within brackets `[egname]`. Each item after is a member of that dictionary and takes up one line,
 completed by `;`. The dictionaries members themselves can have holes, defined by other dictionary names, to pull in 
-random selections from that respective dictionary as well. Note, these will keep being filled up until an "end" is
+random selections from that respective dictionary as well. Note, these will keep being filled up until an "end point" is
 reached, or a line without another dictionary pointer.
 
-An example of the program. The first dictionary filled is the master one. The name of it is irrelevant, though
-useful to have for reading purposes. There is no set length for members.
+The first dictionary filled is the master one. The name of it is irrelevant, though useful to have for reference 
+purposes. There is no set length for members in the following dictionaries. Spacing in the lines is important in 
+regards to referencing other dictionaries. Meaning `[egname].` will not call `[egname]`. Thus punctuation and the
+like should not be combined with such. Generally the files are written top down, but it is possible to call a dictionary
+after it has been referenced instead of before.
+
+An example of the program. You can look at the .txt files for more comprehensive examples.
 
 ```madlib
 {
 [madlib]
-There once was a [noun] . ;
-I like to [verb] . ;
-This is so [adjective] .
+You can put [noun] here . ;
 }
 
 {
 [noun]
-dog ;
-horse ;
-man who liked kitkats ;
-}
-
-{
-[verb]
-sleep ;
-ignore my alarm clock ;
-program until absurd hours in the morning ;
+anything ;
+something [adjective] ;
 }
 
 {
 [adjective]
-fun ;
+awesome ;
 utterly pointless ;
 }
 ```
 
-**Reminder**: There will be a total of 10 implimentations generated. The more you have in 
-
-## How Works
-How stuff works
+**Reminder**: There will be a total of 10 implimentations generated. The more selections you have in the ditionaries
+the more.
  
