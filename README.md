@@ -6,11 +6,20 @@ MadLib
 * MAIN CLASS: src/Generator.java
 
 This program is designed to create randomly generated phrases based on information given from a file as specified
-by the user. It is possible to change the file name via the main class (Generator.java). The current default is 
+by the user.
+
+It is possible to change the file name via the main class (Generator.java). The current default is 
 set to `sentences.txt` and a total of 10 sets are created. Two other options are currently provided, however you 
 are welcome to write your own files to parse.
 
 The different text files:
+* **Madlib** : A classic madlib maker. But instead of you coming up with the words, the program randomly selects them itself.
+Some are funny, some may not make so much sense, but you never know.
+
+```java
+ Once upon a time, there was a sad pan who liked to hug .
+```
+
 * **Sentences** : Creates random, grammatically incorrect sentences from a given dictionary of nouns, verbs, adjectives,
 and so on. They can be slightly humerous, and the length varies.
 
@@ -35,7 +44,7 @@ the primary purpose of the program is a grammar generator, not word maker.
 ```
 ## Use
 ###Overview:
-The way the program works is fairly similar to how mad-libs work. You can have predefined text (such as with the 
+The way the program works is fairly similar to how madlibs work. You can have predefined text (such as with the 
 facile example) and spaces, or holes, from which the program randomly 
 selects words from a predefined dictionary. Each dictionary itself has a name, for the respective hole it will fill.
 
@@ -52,11 +61,12 @@ regards to referencing other dictionaries. Meaning `[egname].` will not call `[e
 like should not be combined with such. Generally the files are written top down, but it is possible to call a dictionary
 after it has been referenced instead of before.
 
-An example of the program. You can look at the .txt files for more comprehensive examples.
+##Example: 
+You can look at the .txt files for more comprehensive examples.
 
 ```madlib
 {
-[madlib]
+[example]
 You can put [noun] here . ;
 }
 
@@ -73,6 +83,6 @@ utterly pointless ;
 }
 ```
 
-**Reminder**: There will be a total of 10 implimentations generated. The more selections you have in the ditionaries
-the more.
+**Reminder**: There will be a total of 10 implimentations generated. The more selections you have in the dictionaries
+the more random it will be.
  
