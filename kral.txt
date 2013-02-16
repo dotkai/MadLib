@@ -1,0 +1,71 @@
+{
+[word]
+[syllable] . ;
+[syllable] [syllable] . ;
+[syllable] [syllable] [syllable] . ;
+}
+
+{
+[syllable]
+- [jiza] [lurin] ;
+- [jiza] [blen] [lurin] ;
+- [jiza] [lurin] [blen] ;
+- [lurin] [jiza] ;
+- [lurin] [blen] [jiza] ;
+- [lurin] [jiza] [blen] ;
+- [lurin] [jiza] [lurin] ;
+- [lurinsai] [jiza] [lurinsai] [blen] ;
+}
+
+{
+[jiza]
+b ;
+kh ;
+ch ;
+d ;
+f ;
+kg ;
+h ;
+jz ;
+k ;
+l ;
+m ;
+n ;
+ny ;
+p ;
+kw ;
+r ;
+s ;
+sh ;
+st ;
+t ;
+th ;
+v ;
+w ;
+ks ;
+Z ;
+ng ;
+}
+
+{
+[blen]
+r ;
+s ;
+l ;
+}
+
+{
+[lurin]
+[lurinsai] ;
+[lurinsai] [lurinsai] ;
+}
+
+{
+[lurinsai]
+a ;
+e ;
+i ;
+o ;
+u ;
+y ;
+}
