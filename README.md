@@ -2,7 +2,7 @@ MadLib
 ======
 * Language: JAVA 
 * Program: Eclipse
-* Origin: UCI Class Project (Majority written by myself)
+* Origin: UCI Class Project (Some files were provided by instructor, but most written by myself)
 * MAIN CLASS: src/Generator.java
 
 This program is designed to create randomly generated phrases based on information given from a file as specified
