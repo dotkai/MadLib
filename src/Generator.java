@@ -23,7 +23,7 @@ public class Generator
 		for (int i = 0; i < 10; i++)
 			{	
 				//Change the filename here
-				FileParser fp = new FileParser("sentence.txt");
+				FileParser fp = new FileParser("madlib.txt");
 				
 				r = new Random();
 				g = fp.getG();

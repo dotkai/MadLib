@@ -1,0 +1,317 @@
+{
+[story]
+Once upon a time, there was a [adjective] [noun] who liked to [verb] . ;
+Everyday, the [noun] would [verb] , [verb] and [adverb] [verb] with a [adjective] [noun] . ;
+I really like that [noun] . It is very [adjective] and [adjective] and reminds me of my [adjective] [noun] . ;
+The [adjective] [noun] fell in love with the [adjective] [noun] , but the [noun] did not know, so it [verb] ed the [noun] . ;
+[noun] and [noun] had always wanted to [verb] . So they did, and then died. ;
+A [adjective] [noun] [verb] the [noun] and then [adverb] [verb] on the [noun] . ;
+}
+
+{
+[subject]
+[pronoun] ;
+The [noun] ;
+The [adjective] [noun] ;
+[subject] and [subject] ;
+}
+
+{
+[action]
+[verb] ;
+[adverb] [verb] ;
+[action] and [action] ;
+}
+
+{
+[object]
+[oPronoun] ;
+The [noun] ;
+The [adjective] [noun] ;
+[object] and [object] ;
+}
+
+{
+[exclaim]
+Wow! ;
+Nice! ;
+Awesome! ;
+Dude! ;
+Really? ;
+Cute. ;
+}
+
+{
+[noun]
+cat ;
+dog ;
+horse ;
+apple ;
+food ;
+ball ;
+bat ;
+bed ;
+book ;
+boy ;
+bun ;
+can ;
+cake ;
+cap ;
+car ;
+cow ;
+cub ;
+cup ;
+dad ;
+day ;
+dog ;
+doll ;
+dust ;
+fan ;
+feet ;
+girl ;
+gun ;
+hall ;
+hat ;
+hen ;
+jar ;
+kite ;
+man ;
+map ;
+men ;
+mom ;
+pan ;
+pet ;
+pie ;
+pig ;
+pot ;
+rat ;
+son ;
+sun ;
+tub ;
+van ;
+arm ;
+banana ;
+bike ;
+bird ;
+book ;
+chin ;
+clam ;
+class ;
+clover ;
+club ;
+corn ;
+crayon ;
+crow ;
+crown ;
+crowd ;
+crib ;
+desk ;
+dime ;
+dirt ;
+dress ;
+fang ;
+field ;
+flag ;
+flower ;
+fog ;
+game ;
+heat ;
+hill ;
+home ;
+horn ;
+hose ;
+joke ;
+juice ;
+kite ;
+lake ;
+maid ;
+mask ;
+mice ;
+milk ;
+mint ;
+meal ;
+meat ;
+moon ;
+mother ;
+morning ;
+name ;
+nest ;
+nose ;
+pear ;
+pen ;
+pencil ;
+plant ;
+rain ;
+river ;
+road ;
+rock ;
+room ;
+rose ;
+seed ;
+shape ;
+shoe ;
+shop ;
+show ;
+sink ;
+snail ;
+snake ;
+snow ;
+soda ;
+sofa ;
+star ;
+step ;
+stew ;
+stove ;
+straw ;
+string ;
+summer ;
+swing ;
+table ;
+tank ;
+team ;
+tent ;
+test ;
+tree ;
+vest ;
+water ;
+wing ;
+winter ;
+woman ;
+women ;
+}
+
+{
+[adjective]
+happy ;
+sad ;
+tall ;
+short ;
+long ;
+adorable ;
+beautiful ;
+clean ;
+drab ;
+elegant ;
+fancy ;
+glamorous ;
+handsome ;
+magnificent ;
+old-fashioned ;
+plain ;
+quaint ;
+sparkling ;
+ugliest ;
+unsightly ;
+wide-eyed ;
+red ;
+orange ;
+yellow ;
+green ;
+blue ;
+purple ;
+gray ;
+black ;
+white ;
+angry ;
+bewildered ;
+clumsy ;
+defeated ;
+embarrassed ;
+fierce ;
+grumpy ;
+helpless ;
+itchy ;
+jealous ;
+lazy ;
+mysterious ;
+nervous ;
+obnoxious ;
+panicky ;
+repulsive ;
+scary ;
+thoughtless ;
+uptight ;
+worried ;
+}
+
+{
+[adverb]
+quickly ;
+lazily ;
+slowly ;
+happily ;
+carefully ;
+correctly ;
+eagerly ;
+easily ;
+fast ;
+loudly ;
+patiently ;
+quickly ;
+quietly ;
+always ;
+every ;
+never ;
+often ;
+rarely ;
+seldom ;
+sometimes ;
+usually ;
+}
+
+{
+[verb]
+eat ;
+dream ;
+talk ;
+run ;
+add ;
+allow ;
+bake ;
+bang ;
+call ;
+chase ;
+damage ;
+drop ;
+end ;
+escape ;
+fasten ;
+fix ;
+gather ;
+grab ;
+hang ;
+hug ;
+imagine ;
+itch ;
+jog ;
+jump ;
+kick ;
+knit ;
+land ;
+lock ;
+march ;
+mix ;
+name ;
+notice ;
+obey ;
+open ;
+pass ;
+promise ;
+question ;
+reach ;
+rinse ;
+scatter ;
+stay ;
+talk ;
+turn ;
+untie ;
+use ;
+vanish ;
+visit ;
+walk ;
+work ;
+yawn ;
+yell ;
+zip ;
+zoom ;
+}
