@@ -9,7 +9,7 @@ This program is designed to create randomly generated phrases based on informati
 by the user.
 
 It is possible to change the file name via the main class (Generator.java). The current default is 
-set to `sentences.txt` and a total of 10 sets are created. Two other options are currently provided, however you 
+set to `madlib.txt` and a total of 10 sets are created. Two other options are currently provided, however you 
 are welcome to write your own files to parse.
 
 The different text files:
@@ -61,7 +61,7 @@ regards to referencing other dictionaries. Meaning `[egname].` will not call `[e
 like should not be combined with such. Generally the files are written top down, but it is possible to call a dictionary
 after it has been referenced instead of before.
 
-##Example: 
+###Example: 
 You can look at the .txt files for more comprehensive examples.
 
 ```madlib
