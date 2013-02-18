@@ -35,7 +35,7 @@ LET C 0 NL IF O = 4 THEN 2 NL GOTO 16 NL SUB E 18 NL DIV U 18 NL END NL GOSUB 13
 ```
 
 * **Kral** : This is an alien language I invented with an interesting structure for writing syllables. English has
-consonants and nouns, kral has jiza, blen, and lurin. I made this to assist with creatng words, since making up 
+consonants and vowels, kral has jiza, blen, and lurin. I made this to assist with creatng words, since making up 
 massive amounts of words can be very tedious and takes away from programming time. Spaces are not removed since
 the primary purpose of the program is a grammar generator, not word maker.
 
